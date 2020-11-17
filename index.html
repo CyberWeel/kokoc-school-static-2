@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <title>Задание 2</title>
+  <style>
+    table {
+      border: 2px solid red;
+      border-radius: 4px;
+    }
+    table * { border: 1px solid red; }
+    th { padding: 20px 0; }
+    select { display: block; }
+
+    .blue { color: blue; }
+    .red { color: red; }
+    .gray { color: gray; }
+    .bold { font-weight: bold; }
+    .italic { font-style: italic; }
+  </style>
+</head>
+<body>
+  <h2>Этот заголовок H2</h2>
+  <p id="ideveloper" class="bold red">Текст внутри<br>тега p</p>
+  <p class="bold red">Текст жирный</p>
+  <p class="italic red">Текст курсивом</p>
+  <div class="blue">
+    <a href="https://www.youtube.com/watch?v=jNQXAC9IVRw" title="К первому видео на YouTube" target="_blank">
+      Ролик на YouTube
+    </a>
+    <br>
+    <a href="#ideveloper" title="К параграфу ideveloper">
+      Якорь на параграф ideveloper
+    </a>
+  </div>
+  <ul class="blue">
+    <li>Первый элемент списка</li>
+    <li>Второй элемент списка</li>
+    <li>
+      <a href="https://yandex.ru/" title="На главную страницу Yandex" target="_blank">Yandex</a> ссылка на главную страницу
+      <ul class="red" style="list-style-type: circle;">
+        <li>Второй уровень</li>
+        <li>Второй уровень</li>
+      </ul>
+    </li>
+  </ul>
+  <hr>
+  <table class="red">
+    <thead>
+      <tr>
+        <th>Наименование фрукта</th>
+        <th>Кол-во</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>Яблоко</td>
+        <td>
+          2
+          <img src="atom.png">
+        </td>
+      </tr>
+      <tr>
+        <td>Апельсин</td>
+        <td>3</td>
+      </tr>
+      <tr>
+        <td colspan="2">Итог: 5</td>
+      </tr>
+    </tbody>
+  </table>
+  <select>
+    <option>-------- ----</option>
+  </select>
+  <div>
+    <a href="#" class="red">Первая ссылка</a>
+    <br>
+    <a href="#" class="gray">Вторая ссылка</a>
+    <br>
+    <a href="#" class="blue" style="font-size: 0.9em;">Вторая ссылка</a>
+  </div>
+
+
+
+
+  <style>
+
+  </style>
+
+</body>
+</html>
